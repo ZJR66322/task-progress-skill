@@ -2,6 +2,8 @@
 
 A platform-neutral Agent Skill for making long-running AI work visible.
 
+[简体中文](README.zh-CN.md) · [Skill instructions](SKILL.md) · [Examples](examples/status-report.md)
+
 When an AI agent edits code, investigates a problem, or runs a multi-step workflow, users should be able to answer:
 
 - What phase is the task in?
