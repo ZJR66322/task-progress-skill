@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-A platform-neutral Agent Skill for making long-running AI work visible.
+A universal Agent Skill that makes long-running AI work transparent: phases, checkpoints, blockers, changed files, and verification.
 
 [简体中文](README.zh-CN.md) · [Skill instructions](SKILL.md) · [Examples](examples/status-report.md)
 

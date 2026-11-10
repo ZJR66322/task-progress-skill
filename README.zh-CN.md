@@ -1,6 +1,6 @@
 # Task Progress Skill 中文说明
 
-`task-progress` 是一个平台无关的 Agent Skill，用于让用户清楚知道 AI 正在做什么、已经完成什么，以及下一步是什么。
+`task-progress` 是一个通用的 Agent Skill：让用户随时知道 AI 正在做什么、已经完成什么、卡在哪里，以及下一步是什么。
 
 ![状态报告示例](docs/preview.svg)
 
