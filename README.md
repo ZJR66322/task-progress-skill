@@ -1,8 +1,13 @@
 # Task Progress Skill
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 A platform-neutral Agent Skill for making long-running AI work visible.
 
 [简体中文](README.zh-CN.md) · [Skill instructions](SKILL.md) · [Examples](examples/status-report.md)
+
+![Example status report](docs/preview.svg)
+
 
 When an AI agent edits code, investigates a problem, or runs a multi-step workflow, users should be able to answer:
 
@@ -70,6 +75,7 @@ This is a transparency protocol, not a process monitor or tracing backend. It ca
 
 - `SKILL.md` - the reusable skill instructions.
 - `examples/status-report.md` - copyable examples for common task states.
+- `docs/preview.svg` - the status report illustration used above.
 - `scripts/validate_skill.py` - dependency-free structure validation.
 
 ## License

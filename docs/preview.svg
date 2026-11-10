@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="452" viewBox="0 0 880 452" role="img" aria-labelledby="title desc">
+  <title id="title">Task Progress status report example</title>
+  <desc id="desc">A terminal-style card showing a running task status with phase, completed work, blocker state, changed files, and next action.</desc>
+
+  <rect width="880" height="452" rx="14" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="879" height="451" rx="14" fill="none" stroke="#30363d"/>
+
+  <rect x="0" y="0" width="880" height="44" rx="14" fill="#161b22"/>
+  <rect x="0" y="30" width="880" height="14" fill="#161b22"/>
+  <line x1="0" y1="44" x2="880" y2="44" stroke="#30363d"/>
+  <circle cx="26" cy="22" r="6" fill="#ff5f57"/>
+  <circle cx="48" cy="22" r="6" fill="#febc2e"/>
+  <circle cx="70" cy="22" r="6" fill="#28c840"/>
+  <text x="96" y="27" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8b949e">task-progress · status report</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">
+    <text x="32" y="88" fill="#8b949e">Status:</text>
+    <text x="112" y="88" fill="#3fb950" font-weight="600">running</text>
+
+    <text x="32" y="120" fill="#8b949e">Current phase:</text>
+    <text x="176" y="120" fill="#58a6ff" font-weight="600">Implement</text>
+
+    <text x="32" y="152" fill="#8b949e">Completed:</text>
+    <text x="144" y="152" fill="#c9d1d9">Inspected the existing API surface</text>
+    <text x="144" y="176" fill="#c9d1d9">and added request validation.</text>
+
+    <text x="32" y="208" fill="#8b949e">In progress:</text>
+    <text x="160" y="208" fill="#c9d1d9">Running focused tests for valid</text>
+    <text x="176" y="232" fill="#c9d1d9">and invalid input.</text>
+
+    <text x="32" y="264" fill="#8b949e">Blocked:</text>
+    <text x="128" y="264" fill="#c9d1d9">none</text>
+
+    <text x="32" y="296" fill="#8b949e">Changed:</text>
+    <text x="128" y="296" fill="#d2a8ff">src/validation.ts</text>
+    <text x="298" y="296" fill="#c9d1d9">,</text>
+    <text x="312" y="296" fill="#d2a8ff">tests/validation.test.ts</text>
+
+    <text x="32" y="328" fill="#8b949e">Next:</text>
+    <text x="96" y="328" fill="#c9d1d9">Review test output, then run the</text>
+    <text x="96" y="352" fill="#c9d1d9">build check.</text>
+  </g>
+
+  <line x1="32" y1="380" x2="848" y2="380" stroke="#21262d"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+    <text x="32" y="408" fill="#3fb950">[x]</text>
+    <text x="68" y="408" fill="#8b949e">Understand</text>
+    <text x="188" y="408" fill="#3fb950">[x]</text>
+    <text x="224" y="408" fill="#8b949e">Inspect</text>
+    <text x="316" y="408" fill="#d29922">[~]</text>
+    <text x="352" y="408" fill="#c9d1d9" font-weight="600">Implement</text>
+    <text x="464" y="408" fill="#484f58">[ ]</text>
+    <text x="500" y="408" fill="#8b949e">Verify</text>
+    <text x="580" y="408" fill="#484f58">[ ]</text>
+    <text x="616" y="408" fill="#8b949e">Handoff</text>
+  </g>
+</svg>
