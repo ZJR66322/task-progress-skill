@@ -8,6 +8,10 @@ A universal Agent Skill that makes long-running AI work transparent: phases, che
 
 ![Example status report](docs/preview.svg)
 
+## 中文简介
+
+一个通用的 Agent Skill，用来追踪 AI 任务进度：用户随时能看到任务处于哪个阶段、完成了什么、当前在做什么、卡在哪里、改了哪些文件，以及下一步是什么。适用于让 AI 写代码、做调研、跑多步骤任务时"不知道它做到哪一步"的场景。完整中文说明见 [README.zh-CN.md](README.zh-CN.md)。
+
 
 When an AI agent edits code, investigates a problem, or runs a multi-step workflow, users should be able to answer:
 
